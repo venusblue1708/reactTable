@@ -5,7 +5,7 @@ footer {
 }
 .footer_start {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   border-bottom: 1px solid #adb5bd;
 }
 .footer_icon {

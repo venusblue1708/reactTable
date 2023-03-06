@@ -12,7 +12,7 @@ h2 {
 table {
   border: 1px solid #ccc;
   border-spacing: 3px;
-  background-color: #f7ede2;
+  background-color: transparent;
   width: 80%;
   font-size: 20px;
   color: #22223b;
@@ -22,8 +22,7 @@ table {
 
 td,
 th {
-  border: solid 1px #ccc;
-  background-color: #a1d9d3;
+  border: solid 1px #262525;
 }
 .collapsed {
   border-collapse: collapse;
