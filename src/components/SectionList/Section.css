@@ -1,0 +1,33 @@
+.section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #c56eb8;
+}
+table {
+  border: 1px solid #ccc;
+  border-spacing: 3px;
+  background-color: #f7ede2;
+  width: 80%;
+  font-size: 20px;
+  color: #22223b;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+td,
+th {
+  border: solid 1px #ccc;
+  background-color: #a1d9d3;
+}
+.collapsed {
+  border-collapse: collapse;
+}
+.separated {
+  border-collapse: separate;
+}

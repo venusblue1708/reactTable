@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar_logo {
+  width: 7%;
+  height: 5%;
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  list-style-type: none;
+}
+.list__title {
+  margin-left: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list__title > a {
+  text-decoration: none;
+  color: #1fb8da;
+}
+.list__title > a:hover {
+  color: #d510df;
+  transition: 0.8s;
+}
